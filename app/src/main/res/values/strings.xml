@@ -3,4 +3,5 @@
     <string name="welcome_Text">Welcome to the Cheezery!</string>
     <string name="welcome_description">Home of the most wonderful desserts ever seen</string>
     <string name="button_start">get started!</string>
+    <string name="button_signIn">SIGN IN</string>
 </resources>

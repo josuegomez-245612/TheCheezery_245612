@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/hello"
+        android:layout_marginTop="50dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/purple_gray"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/welcome_Text"
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tex />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        android:textColor="@color/dusty_white" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Last Name"
+        android:textColor="@color/dusty_white" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/dusty_white"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/dusty_white"
+        android:text="Password" />
+    <CheckBox
+        android:id="@+id/checkBoxTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="i have read and accept the terms and conditions"
+        android:textColor="@color/dusty_white"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic"
+        android:textColor="@color/dusty_white"
+        android:text="@string/welcome_description"
+        android:textAlignment="center"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:layout_width="309dp"
+        android:textColor="@color/dusty_white"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_button"
+        android:text="@string/button_signIn" />
+
+
+
+</LinearLayout>
